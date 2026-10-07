@@ -27,5 +27,22 @@ apptainer exec --bind /data:/data \
     -c "$SLURM_CPUS_PER_TASK" \
     --out_path "$OUT"
 
+apptainer exec --bind /data:/data \
+    /containers/apptainer/busco_5.7.1.sif \
+    busco \
+    -i "$HIFIASM" \
+    -o hifiasm \
+    -l brassicales_odb10 \
+    -m genome \
+    -c "$SLURM_CPUS_PER_TASK" \
+    --out_path "$OUT"
 
-
+apptainer exec --bind /data:/data \
+    /containers/apptainer/busco_5.7.1.sif \
+    busco \
+    -i "$LJA" \
+    -o lja \
+    -l brassicales_odb10 \
+    -m genome \
+    -c "$SLURM_CPUS_PER_TASK" \
+    --out_path "$OUT"
