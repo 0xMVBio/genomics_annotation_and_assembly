@@ -1,4 +1,4 @@
-These are the scripts that were ultimately used for the assembly and assembly evaluation pipeline for one of 69 Arabidopsis thaliana accessions from the following nature paper: 
+These are the scripts that were ultimately used for my assembly and assembly-evaluation "pipeline" for one of 69 Arabidopsis thaliana accessions from the following nature paper: 
 https://www.nature.com/articles/s41588-024-01715-9
 
 My accession number was Kyr-01
