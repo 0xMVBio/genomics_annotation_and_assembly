@@ -1,0 +1,56 @@
+2026-10-07 00:04:33 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 10/07/2026 00:04:33 *****
+2026-10-07 00:04:33 INFO:	Configuring BUSCO with local environment
+2026-10-07 00:04:33 INFO:	Running genome mode
+2026-10-07 00:04:35 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 10/07/2026 00:04:35 *****
+2026-10-07 00:04:35 INFO:	Configuring BUSCO with local environment
+2026-10-07 00:04:35 INFO:	Running genome mode
+2026-10-07 00:04:36 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 10/07/2026 00:04:36 *****
+2026-10-07 00:04:36 INFO:	Configuring BUSCO with local environment
+2026-10-07 00:04:36 INFO:	Running genome mode
+2026-10-07 00:04:36 INFO:	'Force' option selected; overwriting previous results directory
+2026-10-07 00:05:39 INFO:	Downloading information on latest versions of BUSCO data...
+2026-10-07 00:05:41 INFO:	Input file is /data/users/mvaldivia/genome_assembly_course/assemblies/lja/assembly.fasta
+2026-10-07 00:05:42 INFO:	Running BUSCO using lineage dataset brassicales_odb10 (eukaryota, 2024-01-08)
+2026-10-07 00:05:42 INFO:	Running 1 job(s) on bbtools, starting at 10/07/2026 00:05:42
+2026-10-07 00:05:43 INFO:	[bbtools]	1 of 1 task(s) completed
+2026-10-07 00:05:44 INFO:	Running 1 job(s) on miniprot_index, starting at 10/07/2026 00:05:44
+2026-10-07 00:05:48 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2026-10-07 00:05:48 INFO:	Running 1 job(s) on miniprot_align, starting at 10/07/2026 00:05:48
+2026-10-07 00:06:32 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2026-10-07 00:06:44 INFO:	***** Run HMMER on gene sequences *****
+2026-10-07 00:06:59 INFO:	Running 4596 job(s) on hmmsearch, starting at 10/07/2026 00:06:59
+2026-10-07 00:07:20 INFO:	[hmmsearch]	460 of 4596 task(s) completed
+2026-10-07 00:07:25 INFO:	[hmmsearch]	920 of 4596 task(s) completed
+2026-10-07 00:07:29 INFO:	[hmmsearch]	1379 of 4596 task(s) completed
+2026-10-07 00:07:32 INFO:	[hmmsearch]	1839 of 4596 task(s) completed
+2026-10-07 00:07:35 INFO:	[hmmsearch]	2299 of 4596 task(s) completed
+2026-10-07 00:07:40 INFO:	[hmmsearch]	2758 of 4596 task(s) completed
+2026-10-07 00:07:44 INFO:	[hmmsearch]	3218 of 4596 task(s) completed
+2026-10-07 00:07:50 INFO:	[hmmsearch]	3677 of 4596 task(s) completed
+2026-10-07 00:07:54 INFO:	[hmmsearch]	4137 of 4596 task(s) completed
+2026-10-07 00:08:03 INFO:	[hmmsearch]	4596 of 4596 task(s) completed
+2026-10-07 00:08:09 INFO:	3 candidate overlapping regions found
+2026-10-07 00:08:09 INFO:	31433 exons in total
+2026-10-07 00:08:12 WARNING:	46 of 4585 Complete matches (1.0%) contain internal stop codons in Miniprot gene predictions
+2026-10-07 00:08:15 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset brassicales_odb10                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:99.8%[S:98.8%,D:1.0%],F:0.1%,M:0.1%,n:4596,E:1.0%                                       |
+    |4585    Complete BUSCOs (C)    (of which 46 contain internal stop codons)                 |
+    |4539    Complete and single-copy BUSCOs (S)                                               |
+    |46    Complete and duplicated BUSCOs (D)                                                  |
+    |6    Fragmented BUSCOs (F)                                                                |
+    |5    Missing BUSCOs (M)                                                                   |
+    |4596    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2026-10-07 00:08:15 INFO:	BUSCO analysis done with WARNING(s). Total running time: 154 seconds
+
+***** Summary of warnings: *****
+2026-10-07 00:08:12 WARNING:busco.busco_tools.hmmer	46 of 4585 Complete matches (1.0%) contain internal stop codons in Miniprot gene predictions
+
+2026-10-07 00:08:15 INFO:	Results written in /data/users/mvaldivia/genome_assembly_course/evaluation/busco_genomes/lja
+2026-10-07 00:08:15 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-10-07 00:08:15 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

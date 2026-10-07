@@ -1,0 +1,124 @@
+======================================
+Merqury evaluation
+Using existing k=31 Meryl database
+======================================
+
+======================================
+Running Merqury on: flye
+======================================
+FASTA: /data/users/mvaldivia/genome_assembly_course/assemblies/flye/assembly.fasta
+Output prefix: flye
+
+read: Kyr-1.k31.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: assembly.fasta
+out : flye
+
+
+Get spectra-cn plots and QV stats
+Successfully completed: flye
+
+======================================
+Running Merqury on: hifiasm
+======================================
+FASTA: /data/users/mvaldivia/genome_assembly_course/assemblies/hifiasm/Pa1.bp.p_ctg.fa
+Output prefix: hifiasm
+
+read: Kyr-1.k31.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: Pa1.bp.p_ctg.fa
+out : hifiasm
+
+
+Get spectra-cn plots and QV stats
+Successfully completed: hifiasm
+
+======================================
+Running Merqury on: lja
+======================================
+FASTA: /data/users/mvaldivia/genome_assembly_course/assemblies/lja/assembly.fasta
+Output prefix: lja
+
+read: Kyr-1.k31.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: assembly.fasta
+out : lja
+
+
+Get spectra-cn plots and QV stats
+Successfully completed: lja
+
+======================================
+ALL THREE MERQURY RUNS COMPLETED
+======================================
+
+Results:
+total 11M
+lrwxrwxrwx. 1 mvaldivia mvaldivia   75 Oct  7 07:03 assembly.fasta -> /data/users/mvaldivia/genome_assembly_course/assemblies/flye/assembly.fasta
+drwxrwxr-x. 2 mvaldivia mvaldivia  16K Oct  7 07:04 assembly.meryl
+-rw-rw-r--. 1 mvaldivia mvaldivia 110K Oct  7 07:05 assembly_only.bed
+-rw-rw-r--. 1 mvaldivia mvaldivia  99K Oct  7 07:05 assembly_only.wig
+-rw-rw-r--. 1 mvaldivia mvaldivia   16 Oct  7 07:04 flye.assembly.only.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia 3.3K Oct  7 07:05 flye.assembly.qv
+-rw-rw-r--. 1 mvaldivia mvaldivia  99K Oct  7 07:04 flye.assembly.spectra-cn.fl.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 333K Oct  7 07:04 flye.assembly.spectra-cn.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia 100K Oct  7 07:04 flye.assembly.spectra-cn.ln.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 113K Oct  7 07:05 flye.assembly.spectra-cn.st.png
+-rw-rw-r--. 1 mvaldivia mvaldivia   41 Oct  7 07:05 flye.completeness.stats
+-rw-rw-r--. 1 mvaldivia mvaldivia   16 Oct  7 07:05 flye.dist_only.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia   44 Oct  7 07:05 flye.qv
+-rw-rw-r--. 1 mvaldivia mvaldivia  98K Oct  7 07:05 flye.spectra-asm.fl.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 312K Oct  7 07:05 flye.spectra-asm.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia  99K Oct  7 07:05 flye.spectra-asm.ln.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 102K Oct  7 07:05 flye.spectra-asm.st.png
+-rw-rw-r--. 1 mvaldivia mvaldivia   45 Oct  7 07:06 hifiasm.completeness.stats
+-rw-rw-r--. 1 mvaldivia mvaldivia   21 Oct  7 07:07 hifiasm.dist_only.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia   16 Oct  7 07:06 hifiasm.Pa1.bp.p_ctg.only.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia  14K Oct  7 07:06 hifiasm.Pa1.bp.p_ctg.qv
+-rw-rw-r--. 1 mvaldivia mvaldivia 100K Oct  7 07:06 hifiasm.Pa1.bp.p_ctg.spectra-cn.fl.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 211K Oct  7 07:06 hifiasm.Pa1.bp.p_ctg.spectra-cn.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia 100K Oct  7 07:06 hifiasm.Pa1.bp.p_ctg.spectra-cn.ln.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 116K Oct  7 07:06 hifiasm.Pa1.bp.p_ctg.spectra-cn.st.png
+-rw-rw-r--. 1 mvaldivia mvaldivia   49 Oct  7 07:06 hifiasm.qv
+-rw-rw-r--. 1 mvaldivia mvaldivia  99K Oct  7 07:07 hifiasm.spectra-asm.fl.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 327K Oct  7 07:07 hifiasm.spectra-asm.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia 100K Oct  7 07:07 hifiasm.spectra-asm.ln.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 105K Oct  7 07:07 hifiasm.spectra-asm.st.png
+-rw-rw-r--. 1 mvaldivia mvaldivia    2 Oct  7 07:07 Kyr-1.k31.filt
+-rw-rw-r--. 1 mvaldivia mvaldivia 114K Oct  7 07:07 Kyr-1.k31.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia   36 Oct  7 07:07 Kyr-1.k31.hist.ploidy
+lrwxrwxrwx. 1 mvaldivia mvaldivia   85 Oct  7 07:03 Kyr-1.k31.meryl -> /data/users/mvaldivia/genome_assembly_course/evaluation/merqury/meryl/Kyr-1.k31.meryl
+-rw-rw-r--. 1 mvaldivia mvaldivia   16 Oct  7 07:07 lja.assembly.only.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia 3.3K Oct  7 07:08 lja.assembly.qv
+-rw-rw-r--. 1 mvaldivia mvaldivia  99K Oct  7 07:08 lja.assembly.spectra-cn.fl.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 333K Oct  7 07:07 lja.assembly.spectra-cn.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia 100K Oct  7 07:08 lja.assembly.spectra-cn.ln.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 113K Oct  7 07:08 lja.assembly.spectra-cn.st.png
+-rw-rw-r--. 1 mvaldivia mvaldivia   41 Oct  7 07:08 lja.completeness.stats
+-rw-rw-r--. 1 mvaldivia mvaldivia   16 Oct  7 07:08 lja.dist_only.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia   44 Oct  7 07:08 lja.qv
+-rw-rw-r--. 1 mvaldivia mvaldivia  98K Oct  7 07:08 lja.spectra-asm.fl.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 312K Oct  7 07:08 lja.spectra-asm.hist
+-rw-rw-r--. 1 mvaldivia mvaldivia  99K Oct  7 07:08 lja.spectra-asm.ln.png
+-rw-rw-r--. 1 mvaldivia mvaldivia 102K Oct  7 07:08 lja.spectra-asm.st.png
+drwxrwxr-x. 2 mvaldivia mvaldivia 4.0K Oct  7 07:07 logs
+drwxrwxr-x. 3 mvaldivia mvaldivia 4.0K Oct  6 23:46 meryl
+lrwxrwxrwx. 1 mvaldivia mvaldivia   79 Oct  7 07:05 Pa1.bp.p_ctg.fa -> /data/users/mvaldivia/genome_assembly_course/assemblies/hifiasm/Pa1.bp.p_ctg.fa
+drwxrwxr-x. 2 mvaldivia mvaldivia  16K Oct  7 07:05 Pa1.bp.p_ctg.meryl
+-rw-rw-r--. 1 mvaldivia mvaldivia 364K Oct  7 07:06 Pa1.bp.p_ctg_only.bed
+-rw-rw-r--. 1 mvaldivia mvaldivia 311K Oct  7 07:07 Pa1.bp.p_ctg_only.wig
+
+Log files:
+total 2.2M
+-rw-rw-r--. 1 mvaldivia mvaldivia  11K Oct  7 07:05 flye.spectra-cn.log
+-rw-rw-r--. 1 mvaldivia mvaldivia  12K Oct  7 07:07 hifiasm.spectra-cn.log
+-rw-rw-r--. 1 mvaldivia mvaldivia 4.6K Oct  7 07:08 lja.spectra-cn.log

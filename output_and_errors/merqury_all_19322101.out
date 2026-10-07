@@ -1,0 +1,56 @@
+=== Creating Meryl database (k=31) ===
+=== Meryl completed ===
+
+======================================
+Running Merqury on flye
+FASTA: /data/users/mvaldivia/genome_assembly_course/assemblies/flye/assembly.fasta
+======================================
+read: Kyr-1.k31.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: assembly.fasta
+out : /data/users/mvaldivia/genome_assembly_course/evaluation/merqury/flye
+
+
+Get spectra-cn plots and QV stats
+Finished: flye
+
+======================================
+Running Merqury on hifiasm
+FASTA: /data/users/mvaldivia/genome_assembly_course/assemblies/hifiasm/Pa1.bp.p_ctg.fa
+======================================
+read: Kyr-1.k31.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: Pa1.bp.p_ctg.fa
+out : /data/users/mvaldivia/genome_assembly_course/evaluation/merqury/hifiasm
+
+
+Get spectra-cn plots and QV stats
+Finished: hifiasm
+
+======================================
+Running Merqury on lja
+FASTA: /data/users/mvaldivia/genome_assembly_course/assemblies/lja/assembly.fasta
+======================================
+read: Kyr-1.k31.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: assembly.fasta
+out : /data/users/mvaldivia/genome_assembly_course/evaluation/merqury/lja
+
+
+Get spectra-cn plots and QV stats
+Finished: lja
+
+======================================
+ALL MERQURY ANALYSES COMPLETED
+======================================
+total 1.0K
+drwxrwxr-x. 3 mvaldivia mvaldivia 4.0K Oct  6 23:46 meryl

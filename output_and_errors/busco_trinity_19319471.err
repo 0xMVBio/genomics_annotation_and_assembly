@@ -1,0 +1,4 @@
+2026-10-06 23:14:39 ERROR:	Input /data/users/mvaldivia/genome_assembly_course/assemblies/trinity/trinity.Trinity.fasta does not exist
+2026-10-06 23:14:39 ERROR:	BUSCO analysis failed!
+2026-10-06 23:14:39 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

@@ -1,0 +1,34 @@
+2026-10-06 23:15:07 CRITICAL:	Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoRunner.py", line 120, in run
+    self.get_lineage()
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoRunner.py", line 74, in get_lineage
+    self.config.load_dataset(self.lineage_dataset)
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoConfig.py", line 228, in load_dataset
+    lineage
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoConfig.py", line 221, in download_lineage_file
+    local_lineage_filepath = self.downloader.get(lineage, "lineages")
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoDownloadManager.py", line 233, in get
+    remote_filepath, local_filepath + compression_extension, hash
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoDownloadManager.py", line 297, in _download_file
+    observed_hash = type(self)._md5(local_filepath)
+  File "/usr/local/lib/python3.7/site-packages/busco/BuscoDownloadManager.py", line 319, in _md5
+    with open(fname, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/users/mvaldivia/busco_downloads/lineages/brassicales_odb10.tar.gz'
+
+
+2026-10-06 23:15:07 ERROR:	[Errno 2] No such file or directory: '/data/users/mvaldivia/busco_downloads/lineages/brassicales_odb10.tar.gz'
+2026-10-06 23:15:07 ERROR:	BUSCO analysis failed!
+2026-10-06 23:15:07 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
+2026-10-06 23:15:09 ERROR:	A run with the name /data/users/mvaldivia/genome_assembly_course/evaluation/busco_genomes/hifiasm already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-10-06 23:15:09 ERROR:	BUSCO analysis failed!
+2026-10-06 23:15:09 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
+2026-10-06 23:15:11 ERROR:	Input /data/users/mvaldivia/genome_assembly_course/assemblies/LJA/assembly.fasta does not exist
+2026-10-06 23:15:11 ERROR:	BUSCO analysis failed!
+2026-10-06 23:15:11 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

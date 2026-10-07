@@ -1,0 +1,59 @@
+2026-10-07 00:04:30 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 10/07/2026 00:04:30 *****
+2026-10-07 00:04:30 INFO:	Configuring BUSCO with local environment
+2026-10-07 00:04:30 INFO:	Running transcriptome mode
+2026-10-07 00:04:30 INFO:	'Force' option selected; overwriting previous results directory
+2026-10-07 00:04:30 INFO:	Downloading information on latest versions of BUSCO data...
+2026-10-07 00:04:32 INFO:	Input file is /data/users/mvaldivia/genome_assembly_course/assemblies/trinity.Trinity.fasta
+2026-10-07 00:04:32 INFO:	Running BUSCO using lineage dataset brassicales_odb10 (eukaryota, 2024-01-08)
+2026-10-07 00:04:32 INFO:	Running 1 job(s) on metaeuk, starting at 10/07/2026 00:04:32
+2026-10-07 00:06:40 INFO:	[metaeuk]	1 of 1 task(s) completed
+2026-10-07 00:08:09 INFO:	***** Run HMMER on gene sequences *****
+2026-10-07 00:08:09 INFO:	Running 4596 job(s) on hmmsearch, starting at 10/07/2026 00:08:09
+2026-10-07 00:09:01 INFO:	[hmmsearch]	460 of 4596 task(s) completed
+2026-10-07 00:09:54 INFO:	[hmmsearch]	920 of 4596 task(s) completed
+2026-10-07 00:10:56 INFO:	[hmmsearch]	1379 of 4596 task(s) completed
+2026-10-07 00:11:36 INFO:	[hmmsearch]	1839 of 4596 task(s) completed
+2026-10-07 00:12:16 INFO:	[hmmsearch]	2299 of 4596 task(s) completed
+2026-10-07 00:13:16 INFO:	[hmmsearch]	2758 of 4596 task(s) completed
+2026-10-07 00:15:09 INFO:	[hmmsearch]	3218 of 4596 task(s) completed
+2026-10-07 00:17:11 INFO:	[hmmsearch]	3677 of 4596 task(s) completed
+2026-10-07 00:18:45 INFO:	[hmmsearch]	4137 of 4596 task(s) completed
+2026-10-07 00:21:30 INFO:	[hmmsearch]	4596 of 4596 task(s) completed
+2026-10-07 00:22:44 INFO:	11339 exons in total
+2026-10-07 00:22:44 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+2026-10-07 00:22:49 INFO:	Running 1 job(s) on metaeuk, starting at 10/07/2026 00:22:49
+2026-10-07 00:26:39 INFO:	[metaeuk]	1 of 1 task(s) completed
+2026-10-07 00:26:47 INFO:	***** Run HMMER on gene sequences *****
+2026-10-07 00:26:47 INFO:	Running 979 job(s) on hmmsearch, starting at 10/07/2026 00:26:47
+2026-10-07 00:27:11 INFO:	[hmmsearch]	98 of 979 task(s) completed
+2026-10-07 00:27:30 INFO:	[hmmsearch]	196 of 979 task(s) completed
+2026-10-07 00:27:48 INFO:	[hmmsearch]	294 of 979 task(s) completed
+2026-10-07 00:28:07 INFO:	[hmmsearch]	392 of 979 task(s) completed
+2026-10-07 00:28:33 INFO:	[hmmsearch]	490 of 979 task(s) completed
+2026-10-07 00:28:56 INFO:	[hmmsearch]	588 of 979 task(s) completed
+2026-10-07 00:29:15 INFO:	[hmmsearch]	686 of 979 task(s) completed
+2026-10-07 00:29:33 INFO:	[hmmsearch]	784 of 979 task(s) completed
+2026-10-07 00:30:11 INFO:	[hmmsearch]	882 of 979 task(s) completed
+2026-10-07 00:31:50 INFO:	[hmmsearch]	979 of 979 task(s) completed
+2026-10-07 00:32:17 INFO:	26 candidate overlapping regions found
+2026-10-07 00:32:17 INFO:	9726 exons in total
+2026-10-07 00:32:19 INFO:	Results:	C:79.1%[S:38.8%,D:40.3%],F:3.5%,M:17.4%,n:4596	   
+
+2026-10-07 00:32:28 INFO:	
+
+    ----------------------------------------------------
+    |Results from dataset brassicales_odb10             |
+    ----------------------------------------------------
+    |C:79.1%[S:38.8%,D:40.3%],F:3.5%,M:17.4%,n:4596     |
+    |3636    Complete BUSCOs (C)                        |
+    |1782    Complete and single-copy BUSCOs (S)        |
+    |1854    Complete and duplicated BUSCOs (D)         |
+    |159    Fragmented BUSCOs (F)                       |
+    |801    Missing BUSCOs (M)                          |
+    |4596    Total BUSCO groups searched                |
+    ----------------------------------------------------
+2026-10-07 00:32:28 INFO:	BUSCO analysis done. Total running time: 1676 seconds
+2026-10-07 00:32:28 INFO:	Results written in /data/users/mvaldivia/genome_assembly_course/evaluation/busco_trinity/trinity
+2026-10-07 00:32:28 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-10-07 00:32:28 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

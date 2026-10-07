@@ -1,0 +1,30 @@
+Writing filtered delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/flye_vs_reference.filter
+Reading delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/flye_vs_reference.filter
+Writing plot files /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/flye_vs_reference.fplot, /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/flye_vs_reference.rplot
+Writing gnuplot script /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/flye_vs_reference.gp
+Rendering plot /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/flye_vs_reference.png
+Writing filtered delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/hifiasm_vs_reference.filter
+Reading delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/hifiasm_vs_reference.filter
+Writing plot files /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/hifiasm_vs_reference.fplot, /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/hifiasm_vs_reference.rplot
+Writing gnuplot script /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/hifiasm_vs_reference.gp
+Rendering plot /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/hifiasm_vs_reference.png
+Writing filtered delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/lja_vs_reference.filter
+Reading delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/lja_vs_reference.filter
+Writing plot files /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/lja_vs_reference.fplot, /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/lja_vs_reference.rplot
+Writing gnuplot script /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/lja_vs_reference.gp
+Rendering plot /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/reference/lja_vs_reference.png
+Writing filtered delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_hifiasm.filter
+Reading delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_hifiasm.filter
+Writing plot files /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_hifiasm.fplot, /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_hifiasm.rplot
+Writing gnuplot script /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_hifiasm.gp
+Rendering plot /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_hifiasm.png
+Writing filtered delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_lja.filter
+Reading delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_lja.filter
+Writing plot files /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_lja.fplot, /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_lja.rplot
+Writing gnuplot script /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_lja.gp
+Rendering plot /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/flye_vs_lja.png
+Writing filtered delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/hifiasm_vs_lja.filter
+Reading delta file /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/hifiasm_vs_lja.filter
+Writing plot files /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/hifiasm_vs_lja.fplot, /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/hifiasm_vs_lja.rplot
+Writing gnuplot script /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/hifiasm_vs_lja.gp
+Rendering plot /data/users/mvaldivia/genome_assembly_course/evaluation/nucmer/pairwise/hifiasm_vs_lja.png

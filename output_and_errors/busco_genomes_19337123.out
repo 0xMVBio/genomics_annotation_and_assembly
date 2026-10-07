@@ -1,0 +1,49 @@
+2026-10-07 07:59:20 INFO:	***** Start a BUSCO v5.7.1 analysis, current time: 10/07/2026 07:59:20 *****
+2026-10-07 07:59:20 INFO:	Configuring BUSCO with local environment
+2026-10-07 07:59:20 INFO:	Running genome mode
+2026-10-07 07:59:20 INFO:	Downloading information on latest versions of BUSCO data...
+2026-10-07 07:59:22 INFO:	Input file is /data/users/mvaldivia/genome_assembly_course/assemblies/flye/assembly.fasta
+2026-10-07 07:59:27 INFO:	Running BUSCO using lineage dataset brassicales_odb10 (eukaryota, 2024-01-08)
+2026-10-07 07:59:27 INFO:	Running 1 job(s) on bbtools, starting at 10/07/2026 07:59:27
+2026-10-07 07:59:29 INFO:	[bbtools]	1 of 1 task(s) completed
+2026-10-07 07:59:29 INFO:	Running 1 job(s) on miniprot_index, starting at 10/07/2026 07:59:29
+2026-10-07 07:59:34 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2026-10-07 07:59:34 INFO:	Running 1 job(s) on miniprot_align, starting at 10/07/2026 07:59:34
+2026-10-07 08:00:19 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2026-10-07 08:00:34 INFO:	***** Run HMMER on gene sequences *****
+2026-10-07 08:00:49 INFO:	Running 4596 job(s) on hmmsearch, starting at 10/07/2026 08:00:49
+2026-10-07 08:01:12 INFO:	[hmmsearch]	460 of 4596 task(s) completed
+2026-10-07 08:01:16 INFO:	[hmmsearch]	920 of 4596 task(s) completed
+2026-10-07 08:01:22 INFO:	[hmmsearch]	1379 of 4596 task(s) completed
+2026-10-07 08:01:29 INFO:	[hmmsearch]	1839 of 4596 task(s) completed
+2026-10-07 08:01:36 INFO:	[hmmsearch]	2299 of 4596 task(s) completed
+2026-10-07 08:01:44 INFO:	[hmmsearch]	2758 of 4596 task(s) completed
+2026-10-07 08:01:52 INFO:	[hmmsearch]	3218 of 4596 task(s) completed
+2026-10-07 08:02:00 INFO:	[hmmsearch]	3677 of 4596 task(s) completed
+2026-10-07 08:02:06 INFO:	[hmmsearch]	4137 of 4596 task(s) completed
+2026-10-07 08:02:20 INFO:	[hmmsearch]	4596 of 4596 task(s) completed
+2026-10-07 08:02:26 INFO:	3 candidate overlapping regions found
+2026-10-07 08:02:26 INFO:	31443 exons in total
+2026-10-07 08:02:29 WARNING:	46 of 4586 Complete matches (1.0%) contain internal stop codons in Miniprot gene predictions
+2026-10-07 08:02:41 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset brassicales_odb10                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:99.8%[S:98.8%,D:1.0%],F:0.1%,M:0.1%,n:4596,E:1.0%                                       |
+    |4586    Complete BUSCOs (C)    (of which 46 contain internal stop codons)                 |
+    |4540    Complete and single-copy BUSCOs (S)                                               |
+    |46    Complete and duplicated BUSCOs (D)                                                  |
+    |6    Fragmented BUSCOs (F)                                                                |
+    |4    Missing BUSCOs (M)                                                                   |
+    |4596    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2026-10-07 08:02:41 INFO:	BUSCO analysis done with WARNING(s). Total running time: 198 seconds
+
+***** Summary of warnings: *****
+2026-10-07 08:02:29 WARNING:busco.busco_tools.hmmer	46 of 4586 Complete matches (1.0%) contain internal stop codons in Miniprot gene predictions
+
+2026-10-07 08:02:41 INFO:	Results written in /data/users/mvaldivia/genome_assembly_course/evaluation/busco_genomes/flye
+2026-10-07 08:02:41 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-10-07 08:02:41 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

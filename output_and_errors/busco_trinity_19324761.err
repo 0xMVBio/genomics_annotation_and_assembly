@@ -1,0 +1,5 @@
+2026-10-07 00:02:38 ERROR:	A run with the name /data/users/mvaldivia/genome_assembly_course/evaluation/busco_trinity/trinity already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-10-07 00:02:38 ERROR:	BUSCO analysis failed!
+2026-10-07 00:02:38 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
