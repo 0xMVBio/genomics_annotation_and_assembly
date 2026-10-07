@@ -11,3 +11,13 @@ FOR ASSEMBLIES: /data/users/mvaldivia/genome_assembly_course/assemblies
 FOR EVALS: /data/users/mvaldivia/genome_assembly_course/evaluation
 
 
+The Run/Pipeline for my accession:
+1 . Assemblies and preprocess: 
+    In Order: genomics_annotation_and_assembly/scripts
+    /assembly_and_preprocess
+
+2. Evals: 
+   In Order: genomics_annotation_and_assemblyscripts/evals
+   But 06_merqury_w_forloop.sh (FAILED after database creation, as to be seen in: merqury_all_19322101.err)
+   so I ran    06_merqury_eval.sh separately
+
