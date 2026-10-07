@@ -6,8 +6,11 @@ The scripts were used in the following order and are located under genomics_anno
 The output and error log files of my runs are under genomics_annotation_and_assembly/output_and_errors
 
 the actual output files are on the cluster under:
+
 FOR FASTQC: /data/users/mvaldivia/genome_assembly_course/outputs
+
 FOR ASSEMBLIES: /data/users/mvaldivia/genome_assembly_course/assemblies
+
 FOR EVALS: /data/users/mvaldivia/genome_assembly_course/evaluation
 
 
